@@ -4,9 +4,9 @@ from setuptools import setup
 setup(
     name='django-bootstrap3-datetimepicker_timepicker',
     packages=['bootstrap3_datetime_time',],
-    package_data={'bootstrap3_datetime': ['static/bootstrap3_datetime/css/*.css', 
-                                          'static/bootstrap3_datetime/js/*.js',
-                                          'static/bootstrap3_datetime/js/locales/*.js',]},
+    package_data={'bootstrap3_datetime': ['static/bootstrap3_datetime_time/css/*.css', 
+                                          'static/bootstrap3_datetime_time/js/*.js',
+                                          'static/bootstrap3_datetime_time/js/locales/*.js',]},
     include_package_data=True,
     version='2.4',
     description='Bootstrap3 compatible datetimepicker and timepicker for Django projects.',
