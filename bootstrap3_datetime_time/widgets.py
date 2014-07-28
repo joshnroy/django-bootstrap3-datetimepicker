@@ -220,7 +220,7 @@ class TimePicker(TimeInput):
         <script>
             (function(window) {
                 var callback = function() {
-                    $(function(){$("#%(picker_id)s").datetimepicker(%(options)s, "pickDate": false);});
+                    $(function(){$("#%(picker_id)s").datetimepicker(%(options)s);});
                 };
                 if(window.addEventListener)
                     window.addEventListener("load", callback, false);
