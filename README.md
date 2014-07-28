@@ -10,7 +10,7 @@ The correct formatting options for dates can be found here:
 It works only with Bootstrap3. If you are using Bootstrap2 in your Django project, 
 visit https://github.com/zokis/django-bootstrap-datetimepicker
 
-This project is an extension of (django-bootstrap3-datetimepicker)[https://github.com/nkunihiko/django-bootstrap3-datetimepicker]
+This project is an extension of [django-bootstrap3-datetimepicker](https://github.com/nkunihiko/django-bootstrap3-datetimepicker)
 
 
 Install
