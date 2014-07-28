@@ -237,7 +237,7 @@ class TimePicker(TimeInput):
             div_attrs = {'class': 'input-group date'}
         if format is None and options and options.get('format'):
             format = self.conv_datetime_format_js2py(options.get('format'))
-        super(DateTimePicker, self).__init__(attrs, format)
+        super(TimePicker, self).__init__(attrs, format)
         if 'class' not in self.attrs:
             self.attrs['class'] = 'form-control'
         self.div_attrs = div_attrs and div_attrs.copy() or {}
