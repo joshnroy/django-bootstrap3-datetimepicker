@@ -193,6 +193,7 @@ class TimePicker(TimeInput):
                   ('hh', r'%I'),
                   ('mm', r'%M'),
                   ('ss', r'%S'),
+                  ('a', r'%p'),
                   ('ZZ', r'%z'),
     )
 
