@@ -1,7 +1,7 @@
-django-bootstrap3-datetimepicker
+django-bootstrap3-datetimepicker-timepicker
 ================================
 
-This package uses Bootstrap v3 datetimepicker widget version 2 provided by the following project:
+This package uses Bootstrap v3 datetimepicker (and added a custom timepicker) widget version 2 provided by the following project:
  https://github.com/Eonasdan/bootstrap-datetimepicker
 
 The correct formatting options for dates can be found here:
